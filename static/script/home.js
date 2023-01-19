@@ -17,12 +17,12 @@
                                               |___/                                                                     
 */
 const tips = [
-    'Modify Inc&#173;ogni&#173;tos appearance & browser tab in <a href="#settings">settings.</a>',
+    'Modify Unblocked Games 121s appearance & browser tab in <a href="#settings">settings.</a>',
     'You can enable about:blank tab cloaking in <a href="#settings">settings.</a>',
     'Access popular media & sites easily in <a href="#apps">apps.</a>',
     'This <a href="https://github.com/amethystnetwork-dev/Incognito">unofficial In&#173;cog&#173;nito version</a> is made by Am&#173;et&#173;hy&#173;st Net&#173;wo&#173;rk.',
-    'Join the <a href="#community">Am&#173;et&#173;hyst Ne&#173;tw&#173;ork d&#173;i&#173;sco&#173;rd</a>',
-    'Get answers to questions in <a href="#support">support</a>'
+    'Get answers to questions in <a href="#support">support</a>',
+    'access the OG Unblocked Games 121 in <a href="#community">Original Site</a>'
 ];
 
 
@@ -45,7 +45,7 @@ function access(app) {
 
 
     
-    app.nav.community = app.createLink('#community', 'Community');
+    app.nav.community = app.createLink('#community', 'Original Site');
     app.nav.support = app.createLink('#support', 'Support');
     app.nav.apps = app.createLink('#apps', 'Apps');
     app.nav.games = app.createLink('#gs', 'Games');

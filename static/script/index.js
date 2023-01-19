@@ -54,10 +54,10 @@ app.destroyParticles = function() {
 document.querySelector('#open-nav').addEventListener('click', app.openNav);
 document.querySelector('#close-nav').addEventListener('click', app.closeNav);
 
-document.title = localStorage.getItem('incog||title') || 'Incognito';
+document.title = localStorage.getItem('incog||title') || 'Unblocked Games 121';
 window.icon = document.querySelector('#favicon');
 
-icon.href = localStorage.getItem('incog||icon') || './index.svg';
+icon.href = localStorage.getItem('incog||icon') || './index.png';
 
 app.on('init', () => {
     app.icon = document.querySelector('#favicon');
@@ -79,7 +79,7 @@ app.on('init', () => {
             display: 'none',
         }
     });
-    app.search.logo = createLink('#', '<img class="hu" src="img/hu.png"  width="50px" height="50px"><svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365.37 365.37"><defs>    <style>       .cls-1{    fill:none;    stroke-width:18px;}  .cls-1, .cls-2 {    stroke: var(--accent);    stroke-miterlimit:10;} .cls-2 {    fill: var(--accent);    stroke-width:5px;}    </style>  </defs><circle class="cls-1" cx="182.68" cy="182.68" r="173.68"></circle><path class="cls-2" d="M210.41,66.38A115.27,115.27,0,0,1,70.52,248.19,134,134,0,1,0,210.41,66.38Z" transform="translate(-17.32 -17.32)"></path></svg>', {
+    app.search.logo = createLink('#',"", {
         style: {
             display: 'none'
         }

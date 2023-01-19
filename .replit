@@ -2,3 +2,6 @@ entrypoint = "README.md"
 language = "nodejs"
 run = ["npm", "start"]
 onBoot = "chmod u+x src/webretro.sh"
+
+[nix]
+channel = "stable-21_11"
